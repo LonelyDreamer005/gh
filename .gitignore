@@ -1,0 +1,32 @@
+cat > .gitignore <<'EOF'
+# Shell configuration
+.bash_history
+.bashrc
+.bash_logout
+.profile
+.lesshst
+.python_history
+
+# Editor and tool settings
+.codeoss/
+.vscode/
+.config/
+.gemini/
+.local/
+.cache/
+.npm/
+.rustup/
+.docker/
+.gitconfig
+
+# System and temporary files
+.sudo_as_admin_successful
+__pycache__/
+*.py[cod]
+
+# Nested cloned repository
+gh/
+
+# Cloud Shell notes
+README-cloudshell.txt
+EOF
