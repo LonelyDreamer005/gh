@@ -19,6 +19,10 @@ cat > .gitignore <<'EOF'
 .docker/
 .gitconfig
 
+# Kubernetes local configuration and credentials
+.kube/
+.kube
+
 # System and temporary files
 .sudo_as_admin_successful
 __pycache__/
